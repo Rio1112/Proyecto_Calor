@@ -6,7 +6,7 @@ set title "Mapa de Calor - datos_ftcs.txt"
 set xlabel "X"
 set ylabel "Y"
 set pm3d map
-set palette defined (0 'blue', 1 'green', 2 'yellow', 3 'red')
+set palette defined (0 'black', 1 'red', 2 'yellow', 3 'white')
 splot 'datos_ftcs.txt' matrix with image
 
 # Segundo archivo
@@ -15,5 +15,5 @@ set title "Mapa de Calor - datos_ftcs_2.txt"
 set xlabel "X"
 set ylabel "Y"
 set pm3d map
-set palette defined (0 'blue', 1 'green', 2 'yellow', 3 'red')
+set palette defined (0 'black', 1 'red', 2 'yellow', 3 'white')
 splot 'datos_ftcs_2.txt' matrix with image
